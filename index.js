@@ -3,6 +3,7 @@ const {createStore} = require('redux');
 const initialState = {
     sum:21
 };
+
 const myReducer = (state = initialState, action) => {
     const newState = {...state};
     switch(action.type) {

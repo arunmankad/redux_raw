@@ -8,3 +8,11 @@ npm install
 node index.js
 ```
 watch out the console to see the changes in state...
+
+### Code walk through
+
+In the index.js file `initialState` represents the store. myReducer is the reducer and we are dispatching actions using store.dispatch. The view is mocked by console logging inside store.subscribe! Enjoy!
+
+<img src="redux.png"
+     alt="redux"
+     style="float: left; margin-right: 10px;" />
